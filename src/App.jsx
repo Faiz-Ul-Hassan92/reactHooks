@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import UsingOutsideClick from './projects/useClickOutside/UsingOutsideClick'
 import CustomTabs from './projects/tabs/CustomTabs'
 import GithubFinder from './projects/githubFinder/GithubFinder'
+import ChangeTheme from './projects/localStorageUsage/ChangeTheme'
 
 export default function App() {
 
@@ -16,7 +17,8 @@ export default function App() {
                 <Route path="/fetchHook" element={<UsingCustomHook />} />
                 <Route path="/outsideClickHook" element={<UsingOutsideClick />} />
                 <Route path="/customTabs" element={<CustomTabs />} />
-                <Route path="GithubFinder" element={<GithubFinder />} />
+                <Route path="/githubFinder" element={<GithubFinder />} />
+                <Route path="/changeTheme" element={<ChangeTheme />} />
                 <Route path="*" element={<div><span>Choose from the available buttons dummy</span></div>} />
             </Routes>
         </BrowserRouter>
