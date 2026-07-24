@@ -32,7 +32,7 @@ export default function GithubFinder() {
             {userData &&
                 <div>
                     <span>Actual Name: {userData["name"]} Username: {userData["login"]}</span>
-                    <image src={userData["avatar_url"]} />
+                    <img src={userData["avatar_url"]} />
                     <div><span>Followers: {userData["followers"]}</span></div>
                     <div><span>Following: {userData["following"]}</span></div>
                 </div>}
