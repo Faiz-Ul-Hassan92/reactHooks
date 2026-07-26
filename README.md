@@ -1,16 +1,21 @@
-# React + Vite
+# React Hooks Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is a multi-project repository I built to practice React Hooks and modern React development. 
 
-Currently, two official plugins are available:
+The application utilizes **React Router** for navigation. The main home page serves as a central hub, featuring buttons that route to each individual project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Included Projects
 
-## React Compiler
+- **Window Checker**: A custom hook implementation to track window resize events.
+- **Custom Fetch Hook**: A custom hook for fetching data from APIs.
+- **Outside Click Hook**: Detects clicks outside of a specific component (useful for modals/dropdowns).
+- **Custom Tabs**: A reusable tabbed interface component.
+- **Github Finder**: Search for Github users and view their profiles.
+- **Change Theme**: Light/Dark mode toggle using local storage.
+- **Weather App**: Check the weather for a given location.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Food Recipe App
+The Food Recipe app is a larger, multi-page project within this repository. It includes:
+- **Search Home**: Search for recipes using an external API.
+- **Recipe Details**: View the full list of ingredients, cooking time, and publisher details for a specific dish.
+- **Favourites**: Save recipes to your personal favourites list using global context, and view them later.
